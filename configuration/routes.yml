@@ -1,0 +1,10 @@
+configure_slack_settings:
+  route: /configure/slack
+  action: configureSlackSettings
+  parameters:
+    config_module: core
+    section: 15
+
+configure_slack_project_settings:
+  route: /:project_key/module/slack/settings
+  action: configureProjectSettings

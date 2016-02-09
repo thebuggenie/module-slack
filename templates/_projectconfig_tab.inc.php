@@ -1,0 +1,1 @@
+<li id="tab_slack"<?php if ($selected_tab == 'slack'): ?> class="selected"<?php endif; ?>><?php echo javascript_link_tag(image_tag('icon_slack.png', ['style' => 'width: 20px'], false, 'slack') . __('Slack integration'), array('onclick' => "TBG.Main.Helpers.tabSwitcher('tab_slack', 'project_config_menu');")); ?></li>
